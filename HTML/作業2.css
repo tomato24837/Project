@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.all{
+	margin:auto;
+	width:1200px;
+	font-family:"SF Pro Text","微軟正黑體";
+}
+h1{
+	font-size:80px;
+	font-weight:bold;
+	border-bottom: solid 2px black;
+	padding:40px 0px;
+}
+.header img{
+	padding:40px 0px;
+	width:324px;
+}
+.container{
+	font-weight:bold;
+}
+.english{
+	font-size:25px;
+	color:rgb(177, 22, 22);
+	margin-left:15px;
+}
+h2{
+	font-size:32px;
+	font-weight:bold;
+	padding:10px 0px 10px 0px;
+	border-bottom:solid 1px rgb(179, 171, 171);
+}
+.container p{
+	color:rgb(56, 55, 55);
+	font-size:24px;
+	line-height:1.5;
+	margin:20px 0px 20px 0px;
+}
+.profile{
+	margin-bottom:50px;
+}
+.education{
+	margin-bottom:50px;
+}
+.skill{
+	background-color:#415165;
+	color:white;
+	text-align:center;
+	padding:10px 0px;
+	margin-bottom:50px;
+}
+.skill h2 {
+	font-size:36px;
+	border-bottom:solid 1px white;
+	margin:0px 30px;
+	padding:20px 0px;
+
+}
+.skill ul{
+	width:300px;
+	border-left:solid 1px #929aa3;
+	margin:20px auto 10px auto;
+	padding:20px 0px;
+}
+.skill li{
+	color:rgb(233, 231, 231);
+	font-size:24px;
+	line-height:0.6;
+	text-align:left;
+	margin:20px 0px 20px 10px;
+	padding:10px 0px 10px 30px;
+}
+.skillen{
+	font-size:24px;
+	color:#fff;
+	margin-left:10px;
+	vertical-align:middle;
+}
+.work{
+	font-size:24px;
+	font-weight:bolder;
+	margin:20px 0px 60px 30px;
+	border-left:solid 1px #cbd4df;
+	padding-left:20px;
+}
+.work li{
+	margin:30px 0px;
+}
+.work img{
+	margin:20px 0px 13px 0px;
+}
+.work p{
+	font-size:20px;
+	font-weight:normal;
+	width:650px;
+	line-height:1.5;
+}
+.footer{
+	background-color:#415165;
+	color:white;
+	text-align:center;
+	font-family:'SF Pro Text',"微軟正黑體";
+}
+.footer h2{
+	font-size:36px;
+	border-bottom:solid 1px white;
+	width: 1200px;
+	margin:0px auto;
+	padding:20px 0px;
+}
+.footer ul{
+	margin:20px auto;
+	border-left:solid 1px #929aa3;
+}
+.footer li{
+	color:rgb(233, 231, 231);
+	font-size:24px;
+	line-height:0.6;
+	text-align:center;
+	margin:30px 0px;
+	padding:10px 0px;
+}
+.footer img{
+	margin:0px 10px 20px 10px;
+}

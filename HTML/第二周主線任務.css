@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.all{
+    width: 1024px;
+    color:#3F5D45;
+    margin: 0 auto;
+    font-family:微軟正黑體;
+    position:relative;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    padding:30px 42px 0 42px;
+    margin-bottom:30px;
+}
+.header a{
+    width: 219.49px;
+}
+.site{
+    display:flex;
+    justify-content:space-between;
+    width: 320px;
+    align-items:center;
+}
+.site li{
+    text-align:center;
+    padding:10px 0;
+
+}
+.site li a{
+    font-size:20px;
+    text-decoration: none;
+    color:#3F5D45;
+    font-weight:bold;
+}
+.banner{
+    text-align:center;
+    margin-bottom:60px;
+}
+.main{
+    display:flex;
+    justify-content:space-between;
+    margin:0 42px;
+}
+.menu{
+    width: 300px;
+    font-size:24px;
+    text-align:center;
+}
+.menu h3{
+    background-color: #3F5D45;
+    color:#fff;
+    padding:16px 0;
+}
+.menu li{
+    border:1px solid #EAF0ED;
+    ;
+}
+.menu li a{
+    text-decoration: none;
+    color:#3F5D45;
+    font-weight:bold;
+    padding:16px 0;
+    display:block;
+    transition: all .3s;
+}
+.menu li a:hover{
+    background-color: #EAF0ED;
+}
+.product_list{
+    width: 620px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom:10px;
+}
+.product_item{
+    margin-bottom:20px;
+    position: relative;
+}
+.product_item .favorite{
+    position: absolute;
+    top:0;
+    left:20px;
+}
+.favorite{
+    padding:10px;
+    font-size:16px;
+    background-color: #3F5D45;
+    color:#EAF0ED;
+    line-height:1.25;
+    font-weight:bold;
+}
+.product_item .heart{
+    position: absolute;
+    top:20px;
+    right:20px;
+}
+.heart{
+    width: 20px;
+}
+.name{
+    text-align:center;
+}
+.money{
+    display:flex;
+    justify-content:space-around;
+    font-size:20px
+}
+.money li{
+    border-left:1px solid#EAF0ED;
+    border-right: 1px solid#EAF0ED;
+    border-bottom: 1px solid#EAF0ED;
+    padding:15px 0;
+    width:148px;
+}
+.money li span{
+    font-weight:bolder;
+}
+.name a{
+    display:block;
+    text-decoration: none;
+    color:#3F5D45;
+    font-size:24px;
+    font-weight:bold;
+    background-color: #EAF0ED;
+    padding:16px 0;
+}
+.name a:hover{
+    color:#EAF0ED;
+    background-color:#3F5D45;    
+}
+.page{
+    width: 300px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:60px;
+    position: absolute;
+    right:42px;
+    
+}
+.page li{
+    width: 59px;
+    text-align:center;
+    border-width: 1px 0 1px 1px;
+    border-style: solid;
+    border-color:#EAF0ED;
+    padding:16px 0;
+}
+.page .rightarrow{
+    border-right:1px solid #EAF0ED;
+}
+.page li a{
+    text-decoration: none; 
+    font-size:27px;
+    color:#3F5D45;
+}
+.page .page1{
+    background-color: #3F5D45;
+}
+.page .page1 a{
+    color:#EAF0ED;
+}
