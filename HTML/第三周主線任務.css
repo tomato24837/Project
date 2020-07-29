@@ -1,0 +1,456 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.all{
+    width: 940px;
+    color:#3F5D45;
+    margin: 0 auto;
+    font-family:微軟正黑體;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    padding-top:30px;
+    margin-bottom:30px;
+}
+.logo{
+    width: 219.49px;
+}
+.buttom{
+    display:none;
+}
+.shopcar{
+    display:none;
+}
+.site{
+    display:flex;
+    justify-content:space-between;
+    width: 320px;
+    align-items:center;
+}
+.site li{
+    text-align:center;
+    padding:10px 0;
+
+}
+.site li a{
+    font-size:20px;
+    text-decoration: none;
+    color:#3F5D45;
+    font-weight:bold;
+}
+.banner{
+    max-width:100%;
+    text-align:center;
+    margin-bottom:60px;
+}
+.main{
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    padding-bottom:60px;
+    margin:0 auto 60px auto;
+}
+.menu{
+    width: 32%;
+    font-size:24px;
+    text-align:center;
+}
+.menu h3{
+    background-color: #3F5D45;
+    color:#fff;
+    padding:16px 0;
+}
+.menu li{
+    border:1px solid #EAF0ED;
+    ;
+}
+.menu li a{
+    text-decoration: none;
+    color:#3F5D45;
+    font-weight:bold;
+    padding:16px 0;
+    display:block;
+    transition: all .3s;
+}
+.menu li a:hover{
+    background-color: #EAF0ED;
+}
+.shopcar{
+    display:none;
+}
+.product_list{
+    width: 66%;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom:10px;
+}
+.product_item{
+    margin-bottom:20px;
+    position: relative;
+}
+.favorite{
+    padding:10px;
+    font-size:16px;
+    background-color: #3F5D45;
+    color:#EAF0ED;
+    line-height:1.25;
+    font-weight:bold;
+    position: absolute;
+    top:0;
+    left:20px;
+}
+.product_item .heart{
+    position: absolute;
+    top:20px;
+    right:20px;
+    width: 20px;
+}
+.name{
+    text-align:center;
+}
+.money{
+    display:flex;
+    justify-content:space-around;
+    font-size:20px
+}
+.money li{
+    border-left:1px solid#EAF0ED;
+    border-right: 1px solid#EAF0ED;
+    border-bottom: 1px solid#EAF0ED;
+    padding:15px 0;
+    width: 50%;
+}
+.money li span{
+    font-weight:bolder;
+}
+.name a{
+    display:block;
+    text-decoration: none;
+    color:#3F5D45;
+    font-size:24px;
+    font-weight:bold;
+    background-color: #EAF0ED;
+    padding:16px 0;
+}
+.name a:hover{
+    color:#EAF0ED;
+    background-color:#3F5D45;    
+}
+.pages{
+    width: 300px;
+    display:flex;
+    justify-content: space-between;
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+.pages li{
+    width: 59px;
+    text-align:center;
+    border-width: 1px 0 1px 1px;
+    border-style: solid;
+    border-color:#EAF0ED;
+    padding:16px 0;
+}
+.pages li a{
+    font-size: 26px;
+    text-decoration: none;
+}
+.page a{
+    color:#3F5D45;
+}
+.pages .rightarrow{
+    border-right:1px solid #EAF0ED;
+}
+.page{
+    text-decoration: none; 
+    font-size:26px;
+    color:#3F5D45;
+}
+.page:hover,.rightarrow:hover{
+    background-color: #EAF0ED;
+}
+.page1{
+    background-color: #3F5D45;
+}
+.page1 a{
+    color:#EAF0ED;
+}
+
+.sweetemail{
+    display:block;
+    background-color:#3F5D45;
+    font-family:"微軟正黑體";
+    margin: 0 auto;
+}
+.subs{
+    max-width: 940px;
+    margin: 0 auto;
+    display:flex;
+    justify-content:space-between;
+    padding:30px 0;
+    align-items:center;
+}
+.form_label{
+    display:flex;
+    align-items:center;
+}
+.form_label img{
+    width: 40px;
+    margin-right:20px;
+}
+.form_label h2{
+    font-size:22px;
+    line-height: 1.5;
+    color:#EAF0ED;
+}
+.form_input{
+    display:flex;
+    position:relative;
+}
+.form_input img{
+    display:block;
+    width: 24px;
+    position:absolute;
+    left:20px;
+    top:16px;
+    text-align:center;
+}
+.email{
+    width: 200px;
+    padding-left:64px;
+    font-size:24px;
+    border:none;
+}
+.enter{
+    border:none;
+    width: 16px;
+    padding: 20px 24px;
+    background-color: #FFE180;
+}
+.enter img{
+    width: 16px;
+}
+.footer{
+    background-color:#EAF0ED ;
+    color:#3F5D45;
+    margin:0 auto;
+    font-family: "微軟正黑體";
+
+}
+.information{
+    max-width: 940px;
+    margin: 0 auto;
+    display:flex;
+    justify-content:space-between;
+    padding:40px 0 ;
+}
+.contact{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size:16px;
+    line-height: 1.5;
+    font-weight: bold;
+    height:auto;
+}
+.contact img {
+    display:block;
+    width: 177px;
+}
+.slogan{
+    display:block;
+}
+.slogan p {
+    font-size:24px;
+    line-height: 1.5;
+    letter-spacing: 10px;
+    font-weight: 700;
+    writing-mode: vertical-rl;
+    display:block;
+    text-indent: -10px;
+}
+.link{
+    max-width: 940px;
+    margin: 0 auto;
+    display:flex;
+    justify-content:space-between;
+    padding-bottom:30px ;
+    align-items:flex-end;
+
+}
+.icon{
+    display:flex;
+    justify-content: space-between;
+}
+.icon img{
+    width: 32px;
+    padding-right:8px;
+
+}
+img{
+    max-width: 100%;
+}
+@media (max-width: 768px){
+    .all{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .main{
+        display:flex;
+        justify-content: space-around;
+    }
+    .menu{
+        width: 45%;
+    }
+    .product_list{
+        width: 42%;
+    }
+    .pages{
+        display:flex;
+        position: absolute;
+        right:20px;
+        bottom:0;
+    }
+    .sweetemail{
+        padding:0 30px;
+    }
+    .footer{
+        padding:0 30px;
+    }
+
+}
+@media (max-width: 568px) {
+    
+    .all{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header{
+        display:flex;
+        justify-content:space-between;
+        text-align:center;
+        align-items: center;
+        padding:36px 33px;
+    }
+    .buttom{
+        display:block;
+   
+    }
+    .logo{
+        width: 160px;
+        display:block;
+       content: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4baf15e7aa2800a1e312de01435b7dbf6f654843/student-week1/logotype-lg-dark.svg);
+    
+    }
+    .shopcar{
+        display:block;
+
+    }
+    .site{
+        display:none;
+    }
+    .banner{
+        margin:0;
+    }
+    .main{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .menu{
+        width: 100%;
+        margin-bottom:30px; 
+    }
+    .product_list{
+        width: 375px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .pages{
+        margin:0 auto;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        position: absolute;
+        right:40px;
+    }
+    .subs{
+        flex-direction: column;
+        padding:30px 0;
+        justify-content: space-between;
+    }
+    .form_label{
+        padding-bottom:20px ;
+    }
+    .contact img{
+        margin-bottom:40px;
+    }
+    .information{
+        max-width: 375px;
+        margin: 0 auto;
+    }
+    .slogan{
+        display: none;
+    }
+    .link{
+        max-width: 375px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:flex-start;
+    }
+    .icon{
+        margin-bottom:23px;
+    }
+}
