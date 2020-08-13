@@ -1,0 +1,192 @@
+.banner{
+    max-width:100%;
+    text-align:center;
+    margin-bottom:60px;
+    display: block;
+    @include mobile(){
+        margin:0;
+    }
+}
+.main{
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    margin: 0 auto;
+    @include pad(){
+        display:flex;
+        flex-direction: cloumn;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    @include mobile(){
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+.menu{
+    width: 32%;
+    font-size:$font-l;
+    text-align:center;
+    @include pad(){
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    @include mobile(){
+        width: 100%;
+        margin-bottom:30px; 
+    }
+    h3{
+        background-color: $green;
+        color:#fff;
+        padding:16px 0;
+    }
+    li{
+        border:1px solid #EAF0ED;
+        a{
+            text-decoration: none;
+            color:$green;
+            font-weight:bold;
+            padding:16px 0;
+            display:block;
+            transition: all .3s; 
+        }
+        a:hover{
+            background-color: #EAF0ED;
+        }
+    }
+}
+
+.product_list{
+    width: 66%;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom:10px;
+    @include pad(){
+        display:flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    @include mobile(){
+        width: 375px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+}
+.product_item{
+    margin-bottom:20px;
+    position: relative;
+    .heart{
+        position: absolute;
+        top:20px;
+        right:20px;
+        width: 20px;
+    }
+}
+.favorite{
+    writing-mode: vertical-rl;
+    padding:10px;
+    font-size:$font-s;
+    background-color: $green;
+    color:$grey;
+    letter-spacing:3px;
+    font-weight:bold;
+    position: absolute;
+    top:0;
+    left:20px;
+}
+.name{
+    text-align:center;
+    a{
+        display:block;
+        text-decoration: none;
+        color:#3F5D45;
+        font-size:$font-l;
+        font-weight:bold;
+        background-color:$grey;
+        padding:16px 0;
+    }
+    a:hover{
+        color:$grey;
+        background-color:$green;  
+    }
+}
+.money{
+    display:flex;
+    justify-content:space-around;
+    font-size:$font-m;
+    h2{
+        border-left:1px solid $grey;
+        border-right: 1px solid $grey;
+        border-bottom: 1px solid $grey;
+        padding:15px 0;
+        width: 50%;
+    }
+    span{
+        font-weight:bolder;
+    }
+}
+.pages{
+    display:flex;
+    justify-content: flex-end;
+    text-align: right;
+    margin-bottom:60px;
+    @include pad(){
+        display:flex;
+        margin:0 auto;
+        width: 42%;
+        margin-bottom: 60px;
+    }
+    @include mobile(){
+        margin:0 auto;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        margin-bottom:30px;
+    }
+    li{
+        width: 59px;
+        text-align:center;
+        border-width: 1px 0 1px 1px;
+        border-style: solid;
+        border-color:$grey;
+        padding:16px 0;
+        @include mobile(){
+            width: 59px;
+        }
+        a{
+            font-size: $font-xl;
+            text-decoration: none;
+        }
+    }
+    .rightarrow{
+        border-right:1px solid $grey;
+    }
+    .rightarrow:hover{
+        background-color: $grey
+    }
+}
+.page{
+    text-decoration: none; 
+    font-size:$font-xl;
+    color:$green;
+    a{
+        color:$green;
+    }
+}
+.page:hover{
+    background-color: $grey;
+}
+.page1{
+    background-color: $green;
+    a{
+        color: $grey; 
+    }
+}
