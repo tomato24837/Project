@@ -1,0 +1,92 @@
+.checkout{
+        background-image: url(../CSS/img/photo-1505935428862-770b6f24f629.jfif);
+        max-width: 100%;
+        height: 460px;
+        overflow:hidden;
+        white-space: nowrap;
+        background-repeat: no-repeat;
+        background-size:cover;
+        margin-bottom:60px;
+        background-position: center;
+        @include mobile(){
+            max-width: 100%;
+            height: 518px;
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+            margin-bottom: 0px;
+    }    
+}
+.main{
+    padding-top:128px;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    @include mobile(){
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top:30px;
+    }
+    ul{
+        display:flex;
+        justify-content: space-between;
+        width: 190px;
+        margin-bottom: 20px;
+        position:relative;
+        hr{
+            background-color:$green;
+            width: 66px;
+            border:1px solid $green;
+            position: relative;
+            top:-22px;
+            left:20px;
+        }
+    }
+    img{
+        display:block;
+        width: 189px;
+        margin-bottom: 51.34px;
+        @include mobile(){
+            position: absolute;
+            top:263.2px;
+            left:87.48px;
+        }
+    }
+    a{
+        display:block;
+        background-color:$yellow;    
+        padding:16px 102px;
+        margin:0 auto;
+        text-decoration: none;
+        font-size: $font-l;
+        line-height:1.5;
+        color:$green;
+        font-weight:bold;
+        text-align:center;
+        @include mobile(){
+            display:none;
+        }
+    }
+    a:hover{
+        background-color: $green;
+        color:white;
+    }
+}
+.continue{
+        display:none;
+        @include mobile(){
+            display:block;
+            background-color:$yellow;    
+            padding:16px 102px;
+            margin:0 auto;
+            text-decoration: none;
+            font-size: $font-l;
+            line-height:1.5;
+            color:$green;
+            font-weight:bold;
+            text-align:center;
+    }
+}
