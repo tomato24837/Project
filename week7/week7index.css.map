@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAP,2EAAO",
+    "sources": [
+        "week7index.scss",
+        "_week7layout.scss",
+        "_week7index.scss"
+    ],
+    "names": [],
+    "file": "week7index.css"
+}
