@@ -47,10 +47,12 @@ table {
 	border-spacing: 0;
 }
 .all{
-    width: 940px;
     color:#3F5D45;
-    margin: 0 auto;
     font-family:微軟正黑體;
+}
+.container{
+    max-width: 940px;
+    margin:0 auto;
 }
 .header{
     display:flex;
@@ -83,6 +85,10 @@ table {
     text-decoration: none;
     color:#3F5D45;
     font-weight:bold;
+    padding:5px;
+}
+.site li a:hover{
+    background-image: linear-gradient(0deg,#EAF0ED 50%,transparent 50.1%);
 }
 .banner{
     max-width:100%;
@@ -108,7 +114,6 @@ table {
 }
 .menu li{
     border:1px solid #EAF0ED;
-    ;
 }
 .menu li a{
     text-decoration: none;
@@ -136,11 +141,12 @@ table {
     position: relative;
 }
 .favorite{
+    writing-mode: vertical-rl;
     padding:10px;
     font-size:16px;
     background-color: #3F5D45;
     color:#EAF0ED;
-    line-height:1.25;
+    letter-spacing:3px;
     font-weight:bold;
     position: absolute;
     top:0;
@@ -167,7 +173,7 @@ table {
     padding:15px 0;
     width: 50%;
 }
-.money li span{
+.money span{
     font-weight:bolder;
 }
 .name a{
@@ -223,7 +229,6 @@ table {
 .page1 a{
     color:#EAF0ED;
 }
-
 .sweetemail{
     display:block;
     background-color:#3F5D45;
@@ -231,12 +236,14 @@ table {
     margin: 0 auto;
 }
 .subs{
-    max-width: 940px;
-    margin: 0 auto;
     display:flex;
     justify-content:space-between;
     padding:30px 0;
     align-items:center;
+}
+.container2{
+    max-width:780px;
+    margin: 0 auto;
 }
 .form_label{
     display:flex;
@@ -283,11 +290,8 @@ table {
     color:#3F5D45;
     margin:0 auto;
     font-family: "微軟正黑體";
-
 }
 .information{
-    max-width: 940px;
-    margin: 0 auto;
     display:flex;
     justify-content:space-between;
     padding:40px 0 ;
@@ -318,13 +322,10 @@ table {
     text-indent: -10px;
 }
 .link{
-    max-width: 940px;
-    margin: 0 auto;
     display:flex;
     justify-content:space-between;
     padding-bottom:30px ;
     align-items:flex-end;
-
 }
 .icon{
     display:flex;
@@ -333,7 +334,6 @@ table {
 .icon img{
     width: 32px;
     padding-right:8px;
-
 }
 img{
     max-width: 100%;

@@ -46,3 +46,39 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+img {
+	width:250px;
+    max-width:100%;
+    height: auto;
+}
+
+.container {
+    max-width:1000px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 25%;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 50%;    
+    }
+    .container {
+        max-width: 720px;
+    }
+}
+@media (max-width: 576px) {
+    .card {
+        width: 100%;
+    }
+    .container {
+        max-width: 540px;
+    }
+}
