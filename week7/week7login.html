@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="week7login.css">
+    <script src="../week7/jquery-3.5.1.min.js"></script>
+    <script src="../week7/week7.js"></script>
+</head>
+<body>
+    <div class="header my-3">
+        <div class="container   d-flex justify-content-between align-items-center">
+            <h1><a class="logo" href="week7index.html">D'perfume</a></h1>
+            <div class="mobilenav d-flex justify-content-between align-items-center d-md-none">
+                <div class="mobilecart">
+                    <a  href="#">
+                        <img class="mr-9" src="../week7/img/index/shopping-cart.png" alt="">
+                        <p class="text-info text-center bg-primary p-0">3</p>
+                        </a>
+                </div> 
+                <button class="navbar-toggler">
+                        <a class="button" href="#"><img src="../week7/img/index/bars.png" alt=""></a></button>    
+            </div>
+            <div class="d-none d-md-block">
+                <ul class="site d-flex justify-content-between list-unstyled text-dark  my-0" >
+                    <li>
+                        <a href="week7product.html" class="d-flex align-items-center  text-decoration-none">
+                        <img src="img/index/tshirt.png" alt="">
+                        <p class=" text-dark mb-0 pl-1">Product</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="week7login.html" class="d-flex align-items-center text-decoration-none">
+                            <img src="../week7/img/index/user-alt.png" alt="">
+                            <p class="text-dark mb-0 pl-1">log in</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center text-decoration-none">
+                        <img src="../week7/img/index/heart.png" alt="">
+                            <p class="text-dark mb-0 pl-1">Wishlist</p>
+                        </a>
+                    </li>
+                        <li>
+                        <a href="#" class="d-flex align-items-center text-decoration-none">
+                        <img src="../week7/img/index/shopping-cart.png" alt="">
+                        <p class="text-dark mb-0 pl-1">Cart(3)</p></a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul class="d-md-none navbarsite d-flex flex-column flex-md-row justify-content-md-between list-unstyled text-dark  my-0" >
+            <li>
+                <a href="week7product.html" class="d-flex align-items-center justify-content-center text-decoration-none border border-info"><p class="text-info py-3 m-0">Product</p></a>
+            </li>
+            <li>
+              <a href="#" class="d-flex align-items-center justify-content-center text-decoration-none border border-info"><p class="text-info py-3 m-0">Wishlist</p></a>
+            </li>
+            <li>
+            <a href="#" class="d-flex align-items-center justify-content-center text-decoration-none border border-info"><p class="text-info py-3 m-0">Blog</p></a>
+            </li>
+            <li>
+            <a href="#" class="d-flex align-items-center justify-content-center text-decoration-none border border-info"><p class="text-info py-3 m-0">Contact</p></a>
+            </li>
+            <li>
+            <a href="week7user.html" class="d-flex align-items-center justify-content-center text-decoration-none border border-info">
+            <p class="text-info py-3 m-0">Mypage</p></a>
+            </li>
+        </ul>
+    </div>
+    <div class="perfume_name bg-primary mb-7 d-none d-sm-block">
+        <div class="container">
+            <ul class="list-unstyled d-flex justify-content-between py-3">
+                <li><a class="text-info d-block text-decoration-none" href="#">CHANEL</a></li>
+                <li><a class="text-info d-block text-decoration-none" href="#">Jo Malone</a></li>
+                <li><a class="text-info d-block text-decoration-none" href="#">Curology</a></li>
+                <li><a class="text-info d-block text-decoration-none" href="#">Dior</a></li>
+                <li><a class="text-info d-block text-decoration-none" href="#">Chloe</a></li>
+                <li><a class="text-info d-block text-decoration-none" href="#">ZARA</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container mb-5">
+        <div class="row align-items-center px-md-0">
+            <div class="col-12 col-md-8">
+                <img class="pic-bg mb-13 mb-md-0" src="../week7/img/login/photo-1515377905703-c4788e51af15.png" alt="">
+            </div>
+            <div class="col-12 col-md-4 ">
+                <h2 class="mb-12">Log in</h2>
+                <div class="sign mb-11">
+                    <label class="d-block my-0" for="account"><p class="mb-1">帳號</p></label>  
+                    <input  class="p-12 mb-10 account border border-login rounded"  placeholder="email@example.com" type="text" id="account">  
+                    <label class="d-block my-0" for="password"><p class="mb-1">密碼</p></label>
+                    <input class="p-12 mb-md-10 account border border-login rounded"  placeholder="Password" type="text">
+                </div>    
+                <div class="button-group d-flex justify-content-between">
+                    <a class="text-decoration-none text-primary" href="#">忘記密碼</a>
+                    <ul class="list-unstyled d-flex">
+                        <li><button class="btn bg-transparent text-primary rounded btn-primary">註冊</button></li>
+                        <li class="ml-1"><button class="btn text-info rounded btn-primary"><a class="text-info text-decoration-none" href="week7user.html">登入</a> </button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="information bg-primary">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-12 col-md-4 d-flex align-items-center justify-content-between justify-content-md-start">
+                        <img src="../week7/img/index/d’Perfumew.png" alt="">
+                        <p class="mb-0 text-info ml-10">© 2020. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-8 d-none d-md-block">
+                        <ul class="list-unstyled d-flex flex-row-reverse align-items-center mb-0">
+                            <li><a class="text-info text-decoration-none" href="week7product.html">Product</a></li>
+                            <li><a class="text-info text-decoration-none" href="#">Blog</a></li>
+                            <li><a class="text-info text-decoration-none" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.member{
+    border-bottom:2px solid $primary;
+    padding-bottom:2px;
+}
+.check:hover{
+    border-bottom:2px solid $primary;
+    padding-bottom:2px;
+    transform: translateZ(0) scale(1);
+}
+.return:hover{
+    border-bottom:2px solid $primary;
+    padding-bottom:2px;
+}
+.correct{
+    border-bottom: 1px solid #818A91;
+}
+.newmember{
+    color:#A5A5A5;
+    font-size:14px;
+}

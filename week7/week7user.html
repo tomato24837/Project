@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="week7user.css">
+    <script src="../week7/jquery-3.5.1.min.js"></script>
+    <script src="../week7/week7.js"></script>
+</head>
+<body>
+    <div class="header my-3">
+        <div class="container   d-flex justify-content-between align-items-center">
+            <h1><a class="logo" href="week7index.html">D'perfume</a></h1>
+            <div class="mobilenav d-flex justify-content-between align-items-center d-md-none">
+                <div class="mobilecart">
+                    <a  href="#">
+                        <img class="mr-9" src="../week7/img/index/shopping-cart.png" alt="">
+                        <p class="text-info text-center bg-primary p-0">3</p>
+                        </a>
+                </div> 
+                <button class="navbar-toggler">
+                        <a class="button" href="#"><img src="../week7/img/index/bars.png" alt=""></a></button>    
+            </div>
+            <div class="d-none d-md-block">
+                <ul class="site d-flex flex-column flex-md-row justify-content-md-between list-unstyled text-dark  my-0" >
+                    <li>
+                        <a href="week7product.html" class="d-flex align-items-center  text-decoration-none">
+                        <img src="img/index/tshirt.png" alt="">
+                        <p class=" text-dark mb-0 pl-1">Product</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="week7login.html" class="d-flex align-items-center text-decoration-none">
+                            <img src="../week7/img/index/user-alt.png" alt="">
+                            <p class="text-dark mb-0 pl-1">log in</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex align-items-center text-decoration-none">
+                        <img src="../week7/img/index/heart.png" alt="">
+                            <p class="text-dark mb-0 pl-1">Wishlist</p>
+                        </a>
+                    </li>
+                        <li>
+                        <a href="#" class="d-flex align-items-center text-decoration-none">
+                        <img src="../week7/img/index/shopping-cart.png" alt="">
+                        <p class="text-dark mb-0 pl-1">Cart(3)</p></a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul class="d-md-none navbarsite d-flex flex-column flex-md-row justify-content-md-between list-unstyled text-dark  my-0" >
+            <li>
+                <a href="week7product.html" class="d-flex align-items-center justify-content-center text-decoration-none border border-info"><p class="text-info py-3 m-0">Product</p></a>
+            </li>
+            <li>
+              <a href="#" class="d-flex align-items-center justify-content-center text-decoration-none border border-info"><p class="text-info py-3 m-0">Wishlist</p></a>
+            </li>
+            <li>
+            <a href="#" class="d-flex align-items-center justify-content-center text-decoration-none border border-info"><p class="text-info py-3 m-0">Blog</p></a>
+            </li>
+            <li>
+            <a href="#" class="d-flex align-items-center justify-content-center text-decoration-none border border-info"><p class="text-info py-3 m-0">Contact</p></a>
+            </li>
+            <li>
+            <a href="week7user.html" class="d-flex align-items-center justify-content-center text-decoration-none border border-info">
+            <p class="text-info py-3 m-0">Mypage</p></a>
+            </li>
+        </ul>
+    </div>
+    <div class="perfume_name bg-primary mb-7 d-none d-sm-block">
+        <div class="container">
+            <ul class="list-unstyled d-flex justify-content-between py-3">
+                <li><a class="text-info d-block text-decoration-none" href="#">CHANEL</a></li>
+                <li><a class="text-info d-block text-decoration-none" href="#">Jo Malone</a></li>
+                <li><a class="text-info d-block text-decoration-none" href="#">Curology</a></li>
+                <li><a class="text-info d-block text-decoration-none" href="#">Dior</a></li>
+                <li><a class="text-info d-block text-decoration-none" href="#">Chloe</a></li>
+                <li><a class="text-info d-block text-decoration-none" href="#">ZARA</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container mypage">
+        <div class="row">
+            <div class="col-md-2">
+                <h5 class="mb-13 text-mypage d-none d-sm-block">會員中心</h5>
+                <ul class="nav d-flex flex-md-column justify-content-between mb-11">
+                    <li class="nav-item mb-4"><a class="text-mypage text-decoration-none member" href="#">會員資料修改</a></li>
+                    <li class="nav-item mb-4"><a class="text-mypage text-decoration-none check" href="#">訂單查詢</a></li>
+                    <li class="nav-item mb-4"><a class="text-mypage text-decoration-none return" href="#">退／換貨申請</a></li>
+                </ul>
+            </div>
+            <div class="col-md-10">
+                <div class="row flex-md-row-reverse">
+                    <div class="col-12 col-md-4">
+                        <div class="d-flex align-items-center pt-1 mb-4">
+                            <img class="mr-1" src="../week7/img/user/user-alt.png" alt="">
+                            <span class="text-user mr-2 pr-0">會員編碼</span>
+                            <h5 class="my-0 text-user">T00020080615</h5>
+                        </div>
+                        <div class="d-flex row mb-3">
+                            <p class="col-5 text-user pr-0 my-0">購物車</p>
+                            <p class="col-4 text-user my-0">56</p>
+                        </div>
+                        <div class="d-flex row mb-3">
+                            <p class="col-5 text-user pr-0 my-0">我的收藏</p>
+                            <p class="col-4 text-user my-0">23</p>
+                        </div>
+                        <div class="d-flex row mb-3">
+                            <p class="col-5 text-user pr-0 my-0">已完成訂單</p>
+                            <p class="col-4 text-user my-0">8</p>
+                        </div>
+                        <div class="d-flex row mb-3">
+                            <p class="col-5 text-user pr-0 my-0">會員紅利</p>
+                            <p class="col-4 text-user my-0">2680</p>
+                        </div>
+                        <div class="d-flex row">
+                            <p class="col-5 text-user pr-0 my-0">專屬邀請碼</p>
+                            <p class="col-4 text-user my-0">TK2075</p>
+                        </div>
+                        <p class="newmember mb-11">新戶輸入邀請碼即可獲贈紅利點數1000點</p>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h6 class="correct pb-2 mb-3">個人資料修改</h6>
+                        <form action="">
+                            <div class="memberaccount mb-10">
+                                <label for="account" class="col-3 col-md-2 col-form-label p-0 text-user">會員帳號</label>
+                                <input type="text" class="col-8 col-md-8 text-user p-2 border-0" id="account" value="email@example.com">
+                            </div>
+                            <div class="memberaccount mb-10">
+                                <label for="name" class="col-3 col-sm-2 col-form-label p-0 text-user">會員姓名</label>
+                                <input type="text" class="col-8 col-md-8 text-user p-2 border border-login rounded" id="name" value="">
+                            </div>
+                            <div class="gender mb-10">
+                                <label for="gender" class="col-3 col-sm-2 col-form-label p-0 text-user">會員性別</label>
+                                <select name="gender" class="col-3 col-md-2 text-user p-2 border border-login rounded" id="gender">
+                                    <option>女</option>
+                                    <option>男</option>
+                                    <option>其他</option>
+                                </select>
+                            </div>
+                            <div class="memberemail mb-10">
+                                <label for="email" class="col-3 col-sm-2 col-form-label p-0 text-user">電子信箱</label>
+                                <input type="text" class="col-8 col-md-8 text-user p-2 border border-login rounded" id="email" placeholder="email@example.com">
+                            </div>
+                            <div class="phone mb-10">
+                                <label for="phone" class="col-3 col-sm-2 col-form-label p-0 text-user">手機號碼</label>
+                                <input type="text" class="col-8 col-md-8 text-user p-2 border border-login rounded" id="phone">
+                            </div>
+                            <div class="country mb-2">
+                                <label for="country" class="col-3 col-sm-2 col-form-label p-0 text-user">聯絡地址</label>
+                                <select name="country" class="col-6 col-md-8 text-user p-2 border border-login rounded" id="country">
+                                    <option>台灣及離島</option>
+                                    <option>其他</option>
+                                    <option>其他</option>
+                                </select>
+                            </div>
+                            <div class="counties mb-2">
+                                <div class="addressgroup">
+                                    <label for="counties" class="col-3 col-sm-2 col-form-label p-0 text-user"></label>
+                                    <select name="counties" class="col-3 col-md-3 text-user p-2 border border-login rounded" id="counties">
+                                        <option>高雄市</option>
+                                        <option>基隆市</option>
+                                        <option>彰化縣</option>
+                                    </select>
+                                    <select name="city" class="col-3 col-md-3 text-user p-2 border border-login rounded" id="city">
+                                        <option>鹽埕區</option>
+                                        <option>中正區</option>
+                                        <option>彰化市</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="phone mb-12">
+                                <label for="address" class="col-3 col-sm-2 col-form-label p-0 text-user"></label>
+                                <input type="text" class="col-8 col-md-8 text-user p-2 border border-login rounded" placeholder="請輸入地址" id="address">
+                            </div>
+                            <div class="checkbox custom-control custom-checkbox mb-10">
+                                <label for="checkbox" class="col-3 col-sm-2 col-form-label p-0 text-user"></label>
+                                <input type="checkbox" class="custom-control-input" id="checkbox">
+                                <label class="custom-control-label text-user" for="checkbox">我願意收到最新優惠情報</label>
+                            </div>
+                            <div class="country mb-2">
+                                <label for="country2" class="col-3 col-sm-2 col-form-label p-0 text-user">配送地址</label>
+                                <select name="country" class="col-6 col-md-8 text-user p-2 border border-login rounded" id="country2">
+                                    <option>台灣及離島</option>
+                                    <option>其他</option>
+                                    <option>其他</option>
+                                </select>
+                            </div>
+                            <div class="counties mb-2">
+                                <div class="addressgroup">
+                                    <label for="counties" class="col-3 col-sm-2 col-form-label p-0 text-user"></label>
+                                    <select name="counties" class="col-3 col-md-3 text-user p-2 border border-login rounded" id="counties">
+                                        <option>高雄市</option>
+                                        <option>基隆市</option>
+                                        <option>彰化縣</option>
+                                    </select>
+                                    <select name="city" class="col-3 col-md-3 text-user p-2 border border-login rounded" id="city">
+                                        <option>鹽埕區</option>
+                                        <option>中正區</option>
+                                        <option>彰化市</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="phone mb-3">
+                                <label for="address" class="col-3 col-sm-2 col-form-label p-0 text-user"></label>
+                                <input type="text" class="col-8 col-md-8 text-user p-2 border border-login rounded" placeholder="請輸入地址" id="address">
+                            </div>
+                            <div class="submit mb-5">
+                                <label for="submit" class="col-3 col-sm-2 col-form-label p-0 text-user"></label>
+                                <button class="col-6 col-md-3 text-info btn btn-primary p-2">確定修改</button>
+                            </div>
+                        </form>
+                        <h6 class="correct pb-2 mb-3">修改密碼</h6>
+                        <form action="">
+                            <div class="passwordori mb-10">
+                                <label for="passwordori" class="col-3 col-sm-2 col-form-label p-0 text-user">舊密碼</label>
+                                <input type="text" class="col-8 col-md-8 text-user p-2 border border-login rounded" id="passwordori" value="">
+                            </div> 
+                            <div class="passwordnew mb-10">
+                                <label for="passwordnew" class="col-3 col-sm-2 col-form-label p-0 text-user">新密碼</label>
+                                <input type="text" class="col-8 col-md-8 text-user p-2 border border-login rounded" id="passwordnew" value="">
+                            </div> 
+                            <div class="confirm mb-10">
+                                <label for="confirm" class="col-3 col-sm-2 col-form-label p-0 text-user">確認新密碼</label>
+                                <input type="text" class="col-8 col-md-8 text-user p-2 border border-login rounded" id="confirm" value="">
+                            </div> 
+                            <div class="submit mb-11 mb-md-6">
+                                <label for="submit" class="col-3 col-sm-2 col-form-label p-0 text-user"></label>
+                                <button class="col-6 col-md-3 text-info btn btn-primary p-2 ">變更密碼</button>
+                            </div>    
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="information bg-primary">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-12 col-md-4 d-flex align-items-center justify-content-between justify-content-md-start">
+                        <img src="../week7/img/index/d’Perfumew.png" alt="">
+                        <p class="mb-0 text-info ml-10">© 2020. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-8 d-none d-md-block">
+                        <ul class="list-unstyled d-flex flex-row-reverse align-items-center mb-0">
+                            <li><a class="text-info text-decoration-none" href="week7product.html">Product</a></li>
+                            <li><a class="text-info text-decoration-none" href="#">Blog</a></li>
+                            <li><a class="text-info text-decoration-none" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
