@@ -14125,15 +14125,15 @@ img {
 }
 
 .banner .btext button {
+  border: 2px solid #ffffff;
   width: 350px;
   height: 60px;
   font-size: 32px;
-  text-align: center;
   padding: 12px;
 }
 
 .btnblack {
-  width: 350px;
+  width: 100%;
   height: 60px;
   font-size: 20px;
   font-weight: bold;
@@ -14175,7 +14175,7 @@ img {
   margin: 0 auto;
 }
 
-@media (max-width: 568px) {
+@media (max-width: 768px) {
   .intro {
     width: 100%;
     margin: 0 auto;

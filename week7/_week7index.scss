@@ -17,16 +17,16 @@
             margin-bottom:5px;
         }
         button{
+            border:2px solid $info;
             width: 350px;
             height: 60px;
             font-size:32px;
-            text-align:center;
             padding:12px;
         }
     }
 }
 .btnblack{
-    width: 350px;
+    width: 100%;
     height: 60px;
     font-size:20px;
     font-weight:bold;
@@ -60,7 +60,7 @@
 .intro{
     width: 66%;
     margin: 0 auto;
-    @include mobile(){
+    @include pad(){
         width: 100%;
         margin: 0 auto;
     }
