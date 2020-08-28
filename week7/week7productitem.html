@@ -9,7 +9,7 @@
     <script src="../week7/week7.js"></script>
 </head>
 <body>
-    <div class="header my-3">
+    <div class="header my-3" data-aos="zoom-in">
         <div class="container   d-flex justify-content-between align-items-center">
             <h1><a class="logo" href="week7index.html">D'perfume</a></h1>
             <div class="mobilenav d-flex justify-content-between align-items-center d-md-none">
@@ -70,7 +70,7 @@
         </ul>
     </div>
     <div class="perfume_name bg-primary mb-7 d-none d-sm-block">
-        <div class="container">
+        <div class="container" data-aos="zoom-in">
             <ul class="list-unstyled d-flex justify-content-between py-3">
                 <li><a class="text-info d-block text-decoration-none" href="#">CHANEL</a></li>
                 <li><a class="text-info d-block text-decoration-none" href="#">Jo Malone</a></li>
@@ -83,10 +83,10 @@
     </div>
     <div class="container">
         <div class="row flex-row-reverse">
-            <div class="col-12 d-md-none mb-9">
+            <div class="col-12 d-md-none mb-9" data-aos="fade-right">
                 <img src="../week7/img/productitem/p1.png" alt="">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-right">
                 <h2>CHANEL N°5</h2>
                 <p class="mb-8">N°5，女性魅力的極致精髓。散發柔美澄透的乙醛花束香氣。經典傳奇香氛，蘊藏於極簡設計的獨特瓶身。
                 </p>
@@ -128,11 +128,11 @@
                 </div>
             </div>
             <div class="col-md-8">
-                <img class="img-fluid mb-md-9 d-none d-md-flex" src="../week7/img/productitem/p1.png" alt="">
+                <img class="img-fluid mb-md-9 d-none d-md-flex" data-aos="fade-right" src="../week7/img/productitem/p1.png" alt="">
                 <div class="row">
-                    <img class="col-md-6 mb-md-9 mb-3" src="../week7/img/productitem/p2.png" alt="">
-                    <img class="col-md-6 mb-md-9 mb-3" src="../week7/img/productitem/p3.png" alt="">
-                    <img class="col-md-12 mb-md-9 mb-11" src="../week7/img/productitem/p1.png" alt="">
+                    <img class="col-md-6 mb-md-9 mb-3" data-aos="fade-right" src="../week7/img/productitem/p2.png" alt="">
+                    <img class="col-md-6 mb-md-9 mb-3" data-aos="fade-right" src="../week7/img/productitem/p3.png" alt="">
+                    <img class="col-md-12 mb-md-9 mb-11" data-aos="fade-right" src="../week7/img/productitem/p1.png" alt="">
                 </div>
                 
             </div>
@@ -140,7 +140,7 @@
     </div>
     <div class="footer">
         <div class="information bg-primary">
-            <div class="container">
+            <div class="container" data-aos="fade-down">
                 <div class="row d-flex align-items-center">
                     <div class="col-12 col-md-4 d-flex align-items-center justify-content-between justify-content-md-start">
                         <img src="../week7/img/index/d’Perfumew.png" alt="">
@@ -160,5 +160,31 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 40, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 800, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+    </script>  
 </body>
 </html>

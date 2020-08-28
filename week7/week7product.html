@@ -9,8 +9,8 @@
     <script src="../week7/week7.js"></script>
 </head>
 <body>
-<div class="header my-3">
-    <div class="container   d-flex justify-content-between align-items-center">
+<div class="header my-3" data-aos="zoom-in">
+    <div class="container d-flex justify-content-between align-items-center">
         <h1><a class="logo" href="week7index.html">D'perfume</a></h1>
         <div class="mobilenav d-flex justify-content-between align-items-center d-md-none">
             <div class="mobilecart">
@@ -70,7 +70,7 @@
     </ul>
 </div>
     <div class="perfume_name bg-primary mb-7 d-none d-sm-block">
-        <div class="container">
+        <div class="container" data-aos="zoom-in">
             <ul class="list-unstyled d-flex justify-content-between py-3">
                 <li><a class="text-info d-block text-decoration-none" href="#">CHANEL</a></li>
                 <li><a class="text-info d-block text-decoration-none" href="#">Jo Malone</a></li>
@@ -82,7 +82,7 @@
         </div>
     </div>
     <div class="product_list container">
-        <ul class="row list-unstyled my-0">
+        <ul class="row list-unstyled my-0" data-aos="fade-down">
             <li class="col-6 col-md-3 mb-8 mb-md-6">
                 <a href="#"><img src="../week7/img/product/photo-1519669011783-4eaa95fa1b7d.png" alt=""></a>
                 <h2 class="product_name">Poppy & Barley</h2>
@@ -213,7 +213,7 @@
             </li>
             
         </ul>
-        <ul class="row list-unstyled my-0">
+        <ul class="row list-unstyled my-0" data-aos="fade-down">
             <li class="col-6 col-md-3 mb-8 mb-md-6">
                 <a href="#"><img src="../week7/img/product/photo-1582211594533-268f4f1edcb9.png" alt=""></a>
                 <h2 class="product_name">Poppy & Barley</h2>
@@ -344,7 +344,7 @@
             </li>
             
         </ul>
-        <ul class="row list-unstyled my-0">
+        <ul class="row list-unstyled my-0" data-aos="fade-down">
             <li class="col-6 col-md-3 mb-5 mb-md-7">
                 <a href="#"><img src="../week7/img/product/photo-1584435731369-1e74c4e9385e.png" alt=""></a>
                 <h2 class="product_name">Poppy & Barley</h2>
@@ -476,7 +476,7 @@
             
         </ul>
     </div>
-    <ul class="d-flex justify-content-center list-unstyled mb-6">
+    <ul class="d-flex justify-content-center list-unstyled mb-6" data-aos="zoom-in">
       <li><a class="text-decoration-none mr-10 text-success h5 pages" href="#">1</a></li>
       <li><a class="text-decoration-none mr-10 text-success h5 pages" href="#">2</a></li>
       <li><a class="text-decoration-none mr-10 text-success h5 pages" href="#">3</a></li>
@@ -484,7 +484,7 @@
     <div class="footer">
         <div class="footer_subscribe">
             <div class="container">
-                <div class="row">
+                <div class="row" data-aos="fade-down">
                     <div class="col-12 col-md-4 form-group">
                       <label for="subscirbe" class="text-dark"><h2 class="font-weight-bold mb-4">訂閱<br>以獲得更多資訊！</h2></label>
                       <div class="form-input d-flex">
@@ -496,7 +496,7 @@
             </div>
         </div>
         <div class="information bg-primary">
-            <div class="container">
+            <div class="container" data-aos="fade-down">
                 <div class="row d-flex align-items-center">
                     <div class="col-12 col-md-4 d-flex align-items-center justify-content-between justify-content-md-start">
                         <img src="../week7/img/index/d’Perfumew.png" alt="">
@@ -516,5 +516,31 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> 
-</body>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 40, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 800, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+    </script>  
+  </body>
 </html>
