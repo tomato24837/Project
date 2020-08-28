@@ -14126,17 +14126,18 @@ img {
 
 .banner .btext button {
   border: 2px solid #ffffff;
-  width: 350px;
-  height: 60px;
+  width: 100%;
+  height: auto;
   font-size: 32px;
   padding: 12px;
 }
 
 .btnblack {
   width: 100%;
-  height: 60px;
+  height: auto;
   font-size: 20px;
   font-weight: bold;
+  padding: 8px;
 }
 
 .btnblack a:hover {
@@ -14151,14 +14152,14 @@ img {
 .sold_out .sdpic {
   position: absolute;
   top: 0;
-  left: 15px;
+  left: 0px;
   z-index: 2;
 }
 
 .sold_out .sdtext {
   position: absolute;
   top: 40%;
-  left: 35%;
+  left: 37%;
   z-index: 3;
 }
 

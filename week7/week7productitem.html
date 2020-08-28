@@ -19,7 +19,7 @@
                         <p class="text-info text-center bg-primary p-0">3</p>
                         </a>
                 </div> 
-                <button class="navbar-toggler">
+                <button class="navbar-toggler px-0">
                         <a class="button" href="#"><img src="../week7/img/index/bars.png" alt=""></a></button>    
             </div>
             <div class="d-none d-md-block">
@@ -65,7 +65,7 @@
             </li>
             <li>
             <a href="week7login.html" class="d-flex align-items-center justify-content-center text-decoration-none border border-info">
-            <p class="text-info py-3 m-0">Mypage</p></a>
+            <p class="text-info py-3 m-0">Log in</p></a>
             </li>
         </ul>
     </div>
@@ -93,17 +93,26 @@
                 <p>NT$4,980</p>
                 <div class="quantity-group d-flex mb-2">
                     <input type="number" min="1" value="1" class="number rounded-left border border-primary pl-3" >
-                    <input type="submit" value="加入購物車" class="color-primary add border border-primary rounded-right bg-primary text-info">
+                    <input type="submit" value="加入購物車" class="color-primary add border border-primary rounded-right bg-primary text-info" data-toggle="modal" data-target="#cart">
+                    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                            <div class="modal-body">
+                                <span class="text-primary text-center d-block">已加入購物車</span> 
+                            </div>
+                            </div>
+                        </div>
+                        </div>   
                 </div>
                 <div class="favorite-group mb-md-7 mb-11">
                     <a class="d-flex align-items-center text-decoration-none" type="button" data-toggle="modal" data-target="#heart">
                         <img src="../week7/img/productitem/heart.png" alt="">
-                        <span class="pl-2">加入我的收藏</span></a>
+                        <span class="pl-2 text-success">加入我的收藏</span></a>
                         <div class="modal fade" id="heart" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                 <div class="modal-body">
-                                    <span class="text-primary text-center d-block">已加入收藏</span> 
+                                    <span class="text-primary text-center d-block">已加入我的收藏</span> 
                                 </div>
                                 </div>
                             </div>
